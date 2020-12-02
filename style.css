@@ -63,6 +63,7 @@ textarea{
     height: 160px;
     display: block;
 
+    outline: none;
     border: none;
     background-color: var(--white);
     border: 0.4rem solid  var(--secondaryColor);
@@ -86,6 +87,7 @@ textarea::placeholder{
 
 
 #translateBtn{
+    outline: none;
     border: none;
     border-radius: 2rem;
 
