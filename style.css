@@ -1,0 +1,149 @@
+
+:root{
+ --primaryColor: #FCE029;
+ --secondaryColor:rgb(10, 57, 188); 
+ --white: white;
+ --black: #000000;
+}
+
+/* body{
+    background-image: url('/Images/denim-BG.jpg');
+} */
+
+* {
+    font-family: 'Kalam', cursive;
+}
+
+
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.imageSide{
+    box-sizing: border-box;
+    height: 90vh;
+    width:300px;
+    overflow: hidden;
+    
+    border: 0.8rem solid var(--black);
+    border-radius: 2rem;
+}
+
+.section h1{
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.section h3{
+    font-size: 1.5rem;
+    margin: 0.5rem 0;
+}
+
+.section{
+    box-sizing: border-box;
+    min-width: 400px;
+    height: 90vh;
+    padding: 2rem;
+
+    background-color: var(--primaryColor);
+    border: 0.8rem solid var(--black);
+    border-radius: 2rem;
+
+    color: var(--secondaryColor);
+}
+
+
+textarea{
+    box-sizing: border-box;
+    width: 310px;
+    height: 20vh;
+    display: block;
+
+    border: none;
+    background-color: var(--white);
+    border: 0.4rem solid  var(--secondaryColor);
+    border-radius: 1rem;
+
+    color: var(--secondaryColor);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: auto;
+
+}
+
+textarea::placeholder{
+    font-size: 1.2rem;
+}
+
+
+.textCenter{
+    text-align: center;
+}
+
+
+#translateBtn{
+    border: none;
+    border-radius: 2rem;
+
+    color: var(--primaryColor);
+    background-color: var(--secondaryColor);
+
+    padding: 0.5rem 1.5rem;
+    margin: 0.5rem;
+    font-size: 1.2rem;
+}
+
+
+#output{
+    box-sizing: border-box;
+    width: 310px;
+    height: 20vh;
+
+    border: 0.4rem solid  var(--secondaryColor);
+    border-radius: 1rem;
+
+    background-color: var(--white);
+    color: var(--secondaryColor);
+    font-size: 1.2rem;
+    padding: 0.5rem;
+    margin: auto;
+}
+
+.textLeft{
+    text-align: left;
+}
+
+
+@media screen and (max-width:767px){
+
+    .flex{
+        display: block;
+    }
+    
+    .imageSide{
+        width: 100%;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .imageSide img{
+        transform: rotate(-90deg);
+        position: relative;
+        top: -250px;   
+    }
+
+    .section{
+        min-width: 100px;
+        width: 100%;
+    }
+
+    textarea{
+        width: 100%;
+    }
+    #output{
+        width: 100%;
+    }
+
+}
