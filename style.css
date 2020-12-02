@@ -14,22 +14,6 @@
     font-family: 'Kalam', cursive;
 }
 
-
-.flex{
-    display: flex;
-    justify-content: center;
-}
-
-.imageSide{
-    box-sizing: border-box;
-    height: 90vh;
-    width:300px;
-    overflow: hidden;
-    
-    border: 0.8rem solid var(--black);
-    border-radius: 2rem;
-}
-
 .section h1{
     font-size: 2rem;
     margin: 1rem 0;
@@ -40,10 +24,24 @@
     margin: 0.5rem 0;
 }
 
+.flex{
+    display: flex;
+    justify-content: center;
+}
+
+.imageSide{
+    box-sizing: border-box;
+    height: 660px;
+    width:300px;
+    overflow: hidden;
+    
+    border: 0.8rem solid var(--black);
+    border-radius: 2rem;
+}
+
 .section{
     box-sizing: border-box;
     min-width: 400px;
-    height: 90vh;
     padding: 2rem;
 
     background-color: var(--primaryColor);
@@ -57,7 +55,7 @@
 textarea{
     box-sizing: border-box;
     width: 310px;
-    height: 20vh;
+    height: 160px;
     display: block;
 
     border: none;
@@ -98,7 +96,7 @@ textarea::placeholder{
 #output{
     box-sizing: border-box;
     width: 310px;
-    height: 20vh;
+    height: 160px;
 
     border: 0.4rem solid  var(--secondaryColor);
     border-radius: 1rem;
