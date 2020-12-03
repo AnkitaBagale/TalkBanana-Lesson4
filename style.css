@@ -1,9 +1,9 @@
 
 :root{
  --primaryColor: #FCE029;
- --secondaryColor:rgb(10, 57, 188); 
- --white: white;
+ --secondaryColor:white;
  --black: #000000;
+ --white: white;   
 }
 
 /* body{
@@ -39,7 +39,7 @@ display: none;
     width:300px;
     overflow: hidden;
     
-    border: 0.8rem solid var(--black);
+    border: 0.5rem solid var(--black);
     border-radius: 2rem;
     background-color: black;
 }
@@ -50,7 +50,7 @@ display: none;
     padding: 2rem;
 
     background-color: var(--primaryColor);
-    border: 0.8rem solid var(--black);
+    border: 0.5rem solid var(--black);
     border-radius: 2rem;
 
     color: var(--secondaryColor);
@@ -97,6 +97,7 @@ textarea::placeholder{
     padding: 0.5rem 1.5rem;
     margin: 0.5rem;
     font-size: 1.2rem;
+    font-weight: 600;
 }
 
 
@@ -126,7 +127,7 @@ textarea::placeholder{
         display: block;
     } */
     body{
-        background-color: var(--black);
+        background-color: var(--white);
     }
     
     .imageDesktop{
@@ -135,10 +136,10 @@ textarea::placeholder{
 
     .imageMobile{
         display: block;
-        background-color: black;
+        background-color: white;
 
         height: 200px;
-        border: 0.5rem solid var(--black);
+        border: 0.5rem solid var(--white);
         border-radius: 2rem;
         overflow: hidden;
     }
@@ -167,7 +168,7 @@ textarea::placeholder{
     .section{
         min-width: 100px;
         width: 100%;
-        border: 0.5rem solid var(--black);
+        border: 0.5rem solid var(--white);
 
     }
 
