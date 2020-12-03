@@ -40,7 +40,6 @@ display: none;
     
     border: 0.5rem solid var(--tertiaryColor);
     border-radius: 2rem;
-    background-color: var(--secondaryColor);
 }
 
 .section{
@@ -67,15 +66,15 @@ textarea{
     background-color: var(--secondaryColor);
     border-radius: 1rem;
 
-    color: var(--secondaryColor);
-    font-size: 1.2rem;
+    color: var(--tertiaryColor);
+    font-size: 1.5rem;
     padding: 0.5rem;
     margin: auto;
 
 }
 
 textarea::placeholder{
-    font-size: 1.2rem;
+    font-size: 1.5rem;
 }
 
 
@@ -102,13 +101,13 @@ textarea::placeholder{
 #output{
     box-sizing: border-box;
     width: 310px;
-    height: 160px;
+    min-height: 160px;
 
     border-radius: 1rem;
 
     background-color: var(--secondaryColor);
-    color: var(--secondaryColor);
-    font-size: 1.2rem;
+    color: var(--tertiaryColor);
+    font-size: 1.5rem;
     padding: 0.5rem;
     margin: auto;
 }
