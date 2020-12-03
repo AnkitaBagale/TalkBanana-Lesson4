@@ -2,8 +2,7 @@
 :root{
  --primaryColor: #FCE029;
  --secondaryColor:white;
- --black: #000000;
- --white: white;   
+ --tertiaryColor: #7ab9e2;
 }
 
 /* body{
@@ -39,9 +38,9 @@ display: none;
     width:300px;
     overflow: hidden;
     
-    border: 0.5rem solid var(--black);
+    border: 0.5rem solid var(--tertiaryColor);
     border-radius: 2rem;
-    background-color: black;
+    background-color: var(--secondaryColor);
 }
 
 .section{
@@ -50,7 +49,7 @@ display: none;
     padding: 2rem;
 
     background-color: var(--primaryColor);
-    border: 0.5rem solid var(--black);
+    border: 0.5rem solid var(--tertiaryColor);
     border-radius: 2rem;
 
     color: var(--secondaryColor);
@@ -64,9 +63,8 @@ textarea{
     display: block;
 
     outline: none;
-    border: none;
-    background-color: var(--white);
-    border: 0.4rem solid  var(--secondaryColor);
+    border: none;   
+    background-color: var(--secondaryColor);
     border-radius: 1rem;
 
     color: var(--secondaryColor);
@@ -106,10 +104,9 @@ textarea::placeholder{
     width: 310px;
     height: 160px;
 
-    border: 0.4rem solid  var(--secondaryColor);
     border-radius: 1rem;
 
-    background-color: var(--white);
+    background-color: var(--secondaryColor);
     color: var(--secondaryColor);
     font-size: 1.2rem;
     padding: 0.5rem;
@@ -126,9 +123,6 @@ textarea::placeholder{
     /* .flex{
         display: block;
     } */
-    body{
-        background-color: var(--white);
-    }
     
     .imageDesktop{
         display: none;
@@ -136,15 +130,13 @@ textarea::placeholder{
 
     .imageMobile{
         display: block;
-        background-color: white;
-
         height: 200px;
-        border: 0.5rem solid var(--white);
+
+        border: 0.5rem solid var(--secondaryColor);
         border-radius: 2rem;
         overflow: hidden;
     }
     .imageMobile img{
-        
         width: 100%;
         height: 200px; 
     }
@@ -168,8 +160,7 @@ textarea::placeholder{
     .section{
         min-width: 100px;
         width: 100%;
-        border: 0.5rem solid var(--white);
-
+        border: 0.5rem solid var(--secondaryColor);
     }
 
     textarea{
@@ -178,6 +169,5 @@ textarea::placeholder{
     #output{
         width: 100%;
     }
-
 
 }
