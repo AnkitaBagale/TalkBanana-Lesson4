@@ -3,10 +3,10 @@
 // alert("Welcome "+username);
 
 
-var translateBtn= document.querySelector('#translateBtn');
-var userInput=document.querySelector('#userInput');
-var output = document.querySelector('#output');
-var serverUrl="https://api.funtranslations.com/translate/minion.json"
+const translateBtn= document.querySelector('#translateBtn');
+const userInput=document.querySelector('#userInput');
+const output = document.querySelector('#output');
+const serverUrl="https://api.funtranslations.com/translate/minion.json"
 
 function createUrl(text){
     return encodeURI(serverUrl+"?"+"text="+text);
